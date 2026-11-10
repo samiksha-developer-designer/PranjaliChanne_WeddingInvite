@@ -76,7 +76,7 @@ We are excited to share the dates for our upcoming wedding celebrations and hope
 Please save the dates to celebrate with us! 💛
 
 Our wedding invitation:
-${inviteUrl}
+Click here for details:${inviteUrl}
 
 Warm regards,
 Pranjali Channe & Family`;
