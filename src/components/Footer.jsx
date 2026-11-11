@@ -83,7 +83,7 @@ export default function Footer() {
 // Warm regards,
 // Pranjali Channe & Family`;
 
-const shareMessage = `Hi ${recipientName.trim() || "there"} 👋 ,
+const shareMessage = `Hi ${recipientName.trim() || "there"},
 
 With immense joy, we invite you to be a part of our wedding celebrations as we embark on this beautiful new journey together. ❤️
 
