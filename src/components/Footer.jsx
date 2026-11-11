@@ -61,27 +61,43 @@ export default function Footer() {
 //  Sanket Sapat & Family`;
 
 
-const shareMessage = `Hi ${recipientName.trim() || "there"},
+// const shareMessage = `Hi ${recipientName.trim() || "there"},
 
-We are excited to share the dates for our upcoming wedding celebrations and hope you can join us!
+// We are excited to share the dates for our upcoming wedding celebrations and hope you can join us!
 
-It would mean so much to us to have you and your family celebrate these beautiful moments with us!
+// It would mean so much to us to have you and your family celebrate these beautiful moments with us!
 
-📅 Schedule at a glance:
+// 📅 Schedule at a glance:
 
-• 16th Dec: Engagement (3:00 PM) & Sangeet (7:00 PM) @ Chandralok Creation, Datala Road, Chandrapur
-• 17th Dec: Haldi (2:00 PM) @ Our Home (Behind Jay Prakash Tailor, Gurudwara Road, Shivaji Nagar, Tukum, Chandrapur)
-• 18th Dec: Wedding (12:35 PM) @ Chandralok Creation, Datala Road, Chandrapur
+// • 16th Dec: Engagement (3:00 PM) & Sangeet (7:00 PM) @ Chandralok Creation, Datala Road, Chandrapur
+// • 17th Dec: Haldi (2:00 PM) @ Our Home (Behind Jay Prakash Tailor, Gurudwara Road, Shivaji Nagar, Tukum, Chandrapur)
+// • 18th Dec: Wedding (12:35 PM) @ Chandralok Creation, Datala Road, Chandrapur
 
-💃 Get your dance shoes ready and start preparing for the Sangeet performances!
+// 💃 Get your dance shoes ready and start preparing for the Sangeet performances!
 
-Please save the dates to celebrate with us! 💛
+// Please save the dates to celebrate with us! 💛
 
-Our wedding invitation:
-Click here for details:${inviteUrl}
+// Our wedding invitation:
+// Click here for details:${inviteUrl}
 
-Warm regards,
-Pranjali Channe & Family`;
+// Warm regards,
+// Pranjali Channe & Family`;
+
+const shareMessage = `Hi ${recipientName.trim() || "there"} 👋 ,
+
+With immense joy, we invite you to be a part of our wedding celebrations as we embark on this beautiful new journey together. ❤️
+
+Your presence and blessings will make our special moments even more memorable.
+
+💌 Explore our wedding invitation and find all the celebration details here:
+${inviteUrl}
+
+💃🕺 Get your dance shoes ready and start preparing for the Sangeet performances!
+
+Save the dates and get ready to celebrate with us! ❤️
+
+With love,
+Pranjali Channe & Family`
 
 console.log("Original:", shareMessage);
 console.log("Encoded:", encodeURIComponent(shareMessage));
