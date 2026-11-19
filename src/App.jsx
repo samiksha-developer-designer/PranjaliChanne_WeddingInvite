@@ -4,7 +4,6 @@ import Hero from "./components/Hero";
 import Countdown from "./components/Countdown";
 import EventCard from "./components/EventCard";
 import Footer from "./components/Footer";
-
 import engagementImage from "./assets/images/engagement_card.png";
 import sangeetImage from "./assets/images/sangeet_card.png";
 import haldiImage from "./assets/images/haldi_card.png";
