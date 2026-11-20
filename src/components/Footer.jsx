@@ -308,7 +308,7 @@ console.log("Encoded:", encodeURIComponent(shareMessage));
           <input
             type="text"
             className="recipient-name-input"
-            placeholder="Enter recipient's name (e.g. Rahul)"
+            placeholder="Enter Guest name (e.g. Pranjali)"
             value={recipientName}
             onChange={(e) => setRecipientName(e.target.value)}
             aria-label="Recipient's name"
